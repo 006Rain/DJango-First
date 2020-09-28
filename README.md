@@ -1,2 +1,10 @@
 # DJango-first
 A simple DJango web case for learning DJango.
+
+# Learning-Video Url
+https://www.bilibili.com/video/BV1KJ41117HL?p=1
+
+# Finally Photo-Cut
+## home page
+
+## user page

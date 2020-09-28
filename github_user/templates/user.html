@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hello {{ user }} !</h1>
+    <div>
+        <div class="card" style="width: 18rem;">
+            <img src="{{ user_info.avatar_url }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ user_info.name }}</h5>
+                <p class="card-text">company: {{ user_info.company }}</p>
+                <p class="card-text">blog: {{ user_info.blog }}</p>
+                <p class="card-text">email: {{ user_info.email }}</p>
+                <p class="card-text">location: {{ user_info.location }}</p>
+                <a href="{{ user_info.html_url }}" class="btn btn-primary">Scan</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

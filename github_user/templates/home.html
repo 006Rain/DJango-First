@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+<div>
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, DJango!</h1>
+        <p class="lead">This is a simple web-case to learn DJango.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            {% for x in api_content %}
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ x.avatar_url }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ x.login }}</h5>
+                        <p class="card-text">{{ x.login }}'s github</p>
+                        <a href="{{ x.html_url }}" class="btn btn-primary">Scan</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
+</div>
