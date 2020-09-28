@@ -6,7 +6,9 @@ https://www.bilibili.com/video/BV1KJ41117HL?p=1
 
 # Finally Photo-Cut
 ## home page
-![home](https://github.com/006Rain/DJango-First/tree/master/Photo-cut/home.png)
+
+![image](https://github.com/006Rain/DJango-First/tree/master/Photo-cut/home.png？raw=true)
 
 ## user page
-![user](https://github.com/006Rain/DJango-First/tree/master/Photo-cut/user.png)
+
+![image](https://github.com/006Rain/DJango-First/tree/master/Photo-cut/user.png)
